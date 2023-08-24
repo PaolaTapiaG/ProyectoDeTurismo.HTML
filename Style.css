@@ -1,0 +1,69 @@
+
+header {
+    background-color: rgb(5,8,100);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    color: white;
+}
+
+.logo img {
+    max-height: 50px;
+     
+}
+
+.menu ul {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+    color:white;
+}
+
+.menu li {
+    margin: 15px;
+    
+}
+
+.menu a {
+    text-decoration: none;
+    
+}
+
+.informacion img,
+.Experiencias img,
+.explora img,
+.opciones img,
+.Epicentros img,
+.Acerca img,
+.Cultura img,
+.Redes__sociales img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+footer {
+    background-color: rgb(9,8,33);
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+footer .Sobre,
+footer .Redes__sociales,
+footer .idioma {
+    flex-basis: 30%;
+}
+
+footer h3 {
+    margin-top: 0;
+}
+
+footer .idioma select {
+    width: 100%;
+    padding: 5px;
+    font-size: 16px;
+}
